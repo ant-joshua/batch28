@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+    </div>
+    <div id="content"></div>
+    <div id="sidebar"></div>
+    <div id="footer"></div>
+
+    <header></header>
+    <main>
+        <header id="content-header">
+            <p>Ini Masuk bagian <span style="color: blue;">Content</span>
+            </p>
+        </header>
+        <section>
+            
+            <header></header>
+            <div></div>
+            <article></article>
+        </section>
+
+        <section>
+            <form action="process.php" method="post">
+                <div>
+                    <label for="nama">
+                        Nama
+                    </label>
+                    <input type="text" name="nama" id="nama" >
+                </div>
+
+                <div>
+                    <label for="nama">
+                        Nama
+                    </label>
+                </div>
+                <div>
+                    <input type="text" name="nama" id="nama" >
+                </div>
+
+                <div>
+                    <label for="email">
+                        Email
+                    </label>
+                    <input type="email" name="email" id="email" >
+                </div>
+
+
+                <div>
+                    <label for="password">
+                        Password
+                    </label>
+                    <input type="password" name="password" id="password" >
+                </div>
+
+                <div>
+                    <label for="umur">
+                        Umur
+                    </label>
+                    <input type="number" name="umur" id="umur" >
+                </div>
+
+                <div>
+                    <label>
+                        Pendidikan
+                    </label>
+                    <select>
+                        <option>SD</option>
+                        <option>SMP</option>
+                        <option>SMA</option>
+                        <option>S1</option>
+                        <option>S2</option>
+                        <option>S3</option>
+                    </select>
+                </div>
+
+
+                <div>
+                    <label>
+                        Jenis Kelamin
+                    </label>
+                    <input type="radio" name="jk" value="laki-laki" id="laki-laki">
+                    <label for="laki-laki">Laki-laki</label>
+
+                    <input type="radio" name="jk" value="perempuan" id="perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </div>
+
+                <div>
+                    <label>
+                        Kelengkapan Data
+                    </label>
+                    <input type="checkbox" name="ktp" id="ktp"/>
+                    <label for="ktp">KTP</label>
+
+
+                    <input type="checkbox" name="kk" id="kk"/>
+                    <label for="kk">KK</label>
+
+                    <input type="checkbox" name="npwp" id="npwp"/>
+                    <label for="npwp">NPWP</label>
+                </div>
+
+                <div>
+                    <label>
+                        Upload Foto
+                    </label>
+                    <input type="file" name="foto" id="foto">
+                </div>
+
+                <div>
+                    <label>
+                        Alamat
+                    </label>
+                    <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+                </div>
+
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+            </form>
+        </section>
+        
+        <footer id="content-footer">
+            Ini Akhir Dari Content
+        </footer>
+    </main>
+    <aside></aside>
+    <footer id="body-footer"></footer>
+</body>
+</html>

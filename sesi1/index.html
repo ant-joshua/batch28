@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            /* Ini CSS */
+            body {
+                background-color: #000;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Selamat datang di website saya</h1>
+        <input type="color" name="color" id="color">
+
+        <script>
+            // Ini Javascript
+            const inputColor = document.getElementById('color');
+            inputColor.addEventListener('change', function() {
+                document.body.style.backgroundColor = this.value;
+            });
+
+
+            // show close confirmation with confirm() on page close
+            // confirm('Are you sure you want to leave?');
+
+            // alert('Hello World');
+
+            const nama = prompt('Masukkan nama anda');
+            alert(`Halo ${nama}`);
+
+        </script>
+    </body>
+</html>
