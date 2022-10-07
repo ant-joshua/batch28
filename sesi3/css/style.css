@@ -1,0 +1,11 @@
+ul.hobbies li{
+    list-style-type: none;
+}
+ul.hobbies li::before{
+    content: "😂";
+    margin-right: 5px;
+}
+
+ul.jobs li{
+    list-style-type: square;
+}

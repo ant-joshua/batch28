@@ -1,0 +1,16 @@
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-col{
+    flex-direction: column;
+}
+.img-circle{
+    border-radius: 50%;
+}
+.img-responsive{
+    width: 100%;
+    object-fit: cover;
+}
