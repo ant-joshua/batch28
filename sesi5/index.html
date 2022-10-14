@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // alert("Hello World");
+    </script>
+    <script src="js/script.js"></script>
+    <style>
+        #name {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ini adalah halaman HTML</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+    <button onclick="alert('Hello World')">Click Me</button>
+    <br>
+    Name: <div id="name">adasd</div>
+    Age: <div id="age"></div>
+
+    <script>
+        var name = "John Andrew"; // string
+        var age = 30; // integer / number
+        var isMarried = true; // boolean
+        var children = null; // null
+        var address; // undefined
+        var mahaSiswa = ["John", "Jane", "Bob"]; // array
+        var john = {
+            name: "John Andrew",
+            age: 30,
+            isMarried: true,
+            children: null,
+            address: undefined,
+            mahaSiswa: ["John", "Jane", "Bob"]
+        }; // object
+
+
+        var transportasi = ["Mobil", "Motor", "Sepeda", "Pesawat", "Kapal", "Kereta Api"]; // Array<String>
+
+        var hobbies = [{
+            name: "swimming",
+            isFun: true
+        }]
+
+        var employeeList = [
+            {
+                name: "John",
+                age: 30,
+                isMarried: true,
+                children: null,
+                address: undefined,
+                mahaSiswa: ["John", "Jane", "Bob"]
+            },
+            {
+                name: "Jane",
+                age: 30,
+                isMarried: true,
+                children: null,
+                address: undefined,
+                mahaSiswa: ["John", "Jane", "Bob"]
+            },
+            {
+                name: "Bob",
+                age: 30,
+                isMarried: true,
+                children: null,
+                address: undefined,
+                mahaSiswa: ["John", "Jane", "Bob"]
+            }
+        ]
+
+
+        document.querySelector("#name").innerHTML = tampilankan_nama("Joshua");
+        document.querySelector("#age").innerHTML = age;
+
+
+        console.log(transportasi[1]);
+
+        console.log(transportasi.length)
+
+        console.log(john.name)
+
+
+        for (var i = 0; i < employeeList.length; i = i + 1) {
+            console.log(i + 1, employeeList[i].name)
+        }
+
+        // console.log(employeeList[1].name)
+    </script>
+</body>
+
+</html>
